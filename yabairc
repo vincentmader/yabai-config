@@ -12,7 +12,7 @@
 # yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 # ╭───────────────────────────────────────────────────────────────────────────╮
-# │                               Global settings                             │
+# │                               Global Settings                             │
 # ╰───────────────────────────────────────────────────────────────────────────╯
 
     yabai -m config mouse_follows_focus          off
@@ -38,7 +38,7 @@
     yabai -m config mouse_drop_action            swap
 
 # ╭───────────────────────────────────────────────────────────────────────────╮
-# │                           General space settings                          │
+# │                                   Spacing                                 │
 # ╰───────────────────────────────────────────────────────────────────────────╯
 
     yabai -m config layout                       bsp
@@ -49,7 +49,7 @@
     yabai -m config window_gap                   20
 
 # ╭───────────────────────────────────────────────────────────────────────────╮
-# │                           Apps-specific settings                          │
+# │                            App-Specific Settings                          │
 # ╰───────────────────────────────────────────────────────────────────────────╯
 
 #   Configure floating apps.
@@ -64,8 +64,8 @@
     yabai -m rule --add title='Preferences$' manage=off
     yabai -m rule --add title='Settings$' manage=off
     yabai -m rule --add title='FTL' manage=off
-    # yabai -m rule --add title='Photos' manage=off
-    # yabai -m rule --add title='Spotify' manage=off
+  # yabai -m rule --add title='Photos' manage=off
+  # yabai -m rule --add title='Spotify' manage=off
   # yabai -m rule --add title='Preview' manage=off layer=above
   # yabai -m rule --add title='QuickTime Player' manage=off
   # yabai -m rule --add title='QuickTime' manage=off
@@ -79,7 +79,7 @@
     yabai -m rule --add app="Blender" manage=on
 
 # ╭───────────────────────────────────────────────────────────────────────────╮
-# │                                Monocle mode                               │
+# │                                Monocle Mode                               │
 # ╰───────────────────────────────────────────────────────────────────────────╯
 
 #   Delete monocle mode lock files from previous sessions.
