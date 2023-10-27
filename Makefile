@@ -15,3 +15,5 @@ stop:
 	skhd --stop-service
 show_windows:
 	yabai -m query --windows
+symlink_cfg:
+	cd bin && ./symlink_cfg.sh
